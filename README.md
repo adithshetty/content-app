@@ -1,4 +1,13 @@
 # React + TypeScript + Vite
+## Features
+
+- **Content Card Viewer**: Showcases one content card at a time, with text and source.
+- **Navigation**: Users can navigate between cards by:
+  - Dragging the card left or right (with circular animation)
+  - Clicking left/right buttons at the bottom corners
+- **Animated Dragging**: Cards animate in a circular arc when dragged, with configurable radius.
+- **Reusable Drag Wrapper**: The drag gesture logic is implemented as a reusable hook and wrapper (`useDragGesture`, `DraggableWrapper`) for any component.
+- **Button Feedback**: Navigation buttons flash blue when activated.
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
